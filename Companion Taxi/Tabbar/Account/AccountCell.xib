@@ -167,7 +167,7 @@
             <connections>
                 <outlet property="topIconView" destination="pcx-yq-h57" id="ORD-Uv-m2V"/>
             </connections>
-            <point key="canvasLocation" x="122" y="184"/>
+            <point key="canvasLocation" x="-25" y="136"/>
         </tableViewCell>
     </objects>
     <resources>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84D8CE38281400560098ECDD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8CE36281400560098ECDD /* TableViewCell.swift */; };
+		84D8CE39281400560098ECDD /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D8CE37281400560098ECDD /* TableViewCell.xib */; };
 		A46469BC3E17E7E27E732084 /* Pods_Companion_Taxi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BC2E2E50E6C83EBB457C65 /* Pods_Companion_Taxi.framework */; };
 		CEF0E0CD280582F70069388D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0E0CC280582F70069388D /* AppDelegate.swift */; };
 		CEF0E0CF280582F70069388D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0E0CE280582F70069388D /* SceneDelegate.swift */; };
@@ -56,6 +58,8 @@
 /* Begin PBXFileReference section */
 		3A21B9598D753B0F02A55028 /* Pods-Companion Taxi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Companion Taxi.debug.xcconfig"; path = "Target Support Files/Pods-Companion Taxi/Pods-Companion Taxi.debug.xcconfig"; sourceTree = "<group>"; };
 		84BC2E2E50E6C83EBB457C65 /* Pods_Companion_Taxi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Companion_Taxi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D8CE36281400560098ECDD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		84D8CE37281400560098ECDD /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		CEF0E0C9280582F70069388D /* Companion Taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Companion Taxi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF0E0CC280582F70069388D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF0E0CE280582F70069388D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,7 +154,6 @@
 				CEF0E0E4280596300069388D /* Auth */,
 				CEF0E0E2280583A60069388D /* Resources */,
 				CEF0E0D0280582F70069388D /* ViewController.swift */,
-				CEF0E0D2280582F70069388D /* Main.storyboard */,
 				CEF0E0D5280582F90069388D /* Assets.xcassets */,
 				CEF0E0D7280582F90069388D /* LaunchScreen.storyboard */,
 				CEF0E0DA280582F90069388D /* Info.plist */,
@@ -210,6 +213,7 @@
 		CEF0E0F42806A4D90069388D /* UserName */ = {
 			isa = PBXGroup;
 			children = (
+				CEF0E0D2280582F70069388D /* Main.storyboard */,
 				CEF0E0F52806A4E50069388D /* UserDataViewController.swift */,
 				CEF0E0F72806A4EC0069388D /* UserCell.swift */,
 			);
@@ -281,6 +285,8 @@
 				CEF0E1152806F3CE0069388D /* AccountViewController.swift */,
 				CEF0E1402809A3EE0069388D /* AccountCell.swift */,
 				CEF0E1412809A3EE0069388D /* AccountCell.xib */,
+				84D8CE36281400560098ECDD /* TableViewCell.swift */,
+				84D8CE37281400560098ECDD /* TableViewCell.xib */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -433,6 +439,7 @@
 			files = (
 				CEF0E0D9280582F90069388D /* LaunchScreen.storyboard in Resources */,
 				CEF0E0E1280583A20069388D /* GoogleService-Info.plist in Resources */,
+				84D8CE39281400560098ECDD /* TableViewCell.xib in Resources */,
 				CEF0E0D6280582F90069388D /* Assets.xcassets in Resources */,
 				CEF0E0D4280582F70069388D /* Main.storyboard in Resources */,
 				CEF0E1232806FA370069388D /* DetailCell.xib in Resources */,
@@ -529,6 +536,7 @@
 				CEF0E1422809A3EE0069388D /* AccountCell.swift in Sources */,
 				CEF0E1032806AC690069388D /* MainViewController.swift in Sources */,
 				CEF0E1332808479D0069388D /* PaymentDataViewController.swift in Sources */,
+				84D8CE38281400560098ECDD /* TableViewCell.swift in Sources */,
 				CEF0E1192806F3FB0069388D /* RequestViewController.swift in Sources */,
 				CEF0E12E2808279A0069388D /* HowWantPayViewController.swift in Sources */,
 				CEF0E1092806C9F20069388D /* BottomSheetCell.swift in Sources */,
@@ -692,7 +700,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 36493YK37Y;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Companion Taxi/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -722,7 +730,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 36493YK37Y;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Companion Taxi/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

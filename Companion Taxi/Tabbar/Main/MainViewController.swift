@@ -19,6 +19,10 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     var personCount = "1"
     var date = ""
 
+    override func loadView() {
+        super.loadView()
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
@@ -56,7 +60,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         cell.fromButton.addTarget(self, action: #selector(didTapFromButton), for: .touchUpInside)
         cell.toButton.addTarget(self, action: #selector(didTapToButton), for: .touchUpInside)
         cell.searchButton.addTarget(self, action: #selector(didTapSearchButton), for: .touchUpInside)
-        
+                
         cell.personTextField.delegate = self
         if self.fromCity != nil {
             cell.fromLabel.text = self.fromCity.city
@@ -75,7 +79,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
             self.fpc.show()
         }, completion: nil)
     }
-    
+   
     @objc func didTapToButton(){
         fromSelected = false
         UIView.animate(withDuration: 0.5, delay: 0.0, options: .curveLinear, animations: {
